@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/4605ea1ac1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+           <h1><span style="color: red;">M</span>ohit.</h1>
+           <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+           </ul>
+           <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>Hi,My name is <span class="red">Mohit</span><br>
+                <div>and I am a passionate</div>
+                <span id="element"></span></h1>
+            </div>
+    </div>
+   </div>
+
+   <!--About-->
+
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80" alt="user">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <h2>Welcome to my corner of the digital world!</h2>
+                <p>I'm a passionate web designer with expertise in UI/UX design and a strong foundation
+         in data structures and algorithms. With a creative flair and a knack for problem-solving, 
+         I bring a unique blend of artistic vision and technical skills to my work.If you're looking 
+         for a web designer who can create stunning interfaces, prioritize user experience, and 
+         implement robust data structures and algorithms, I'm here to help. Let's collaborate and build
+        something remarkable together.</p>
+        <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+            <ul>
+                <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                <li><span>Web Development</span><br>Web app Development</li>
+                <li><span>Data Structures and Algorithms</span></li>
+            </ul>
+        </div>
+
+        <div class="tab-contents" id="experience">
+            <ul>
+                <li><span>July'25 - Aug'25</span><br>Web Development Intern at Oasis Infobyte</li>
+                <li><span>Sep'23 - May'24</span><br>Event Management Coordinator</li>
+                <li><span>jan'23 - May'23</span><br>Web Developer at MUJ</li>
+            </ul>
+        </div>
+
+        <div class="tab-contents" id="education">
+            <ul>
+                <li><span>2022-2026</span><br>Manipal University Jaipur</li>
+                <li><span>2019-2021</span><br>Kids Club School- Class XII</li>
+                <li><span>2019</span><br>Sophia Secondary School - Class X</li>
+            </ul>
+        </div>
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <!--Services-->
+   <div id="services">
+    <div class="container">
+     <h1 class="sub-title">My Services</h1>
+     <div class="services-list">
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Developer</h2>
+            <p>I am a exceptional web developer with a passion for coding and problem-solving. With expertise in various web technologies, they build dynamic and interactive websites that deliver seamless functionality and engaging user experiences..</p>
+            <a href="#">Learn more</a>
+        </div>
+
+        <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI/UX Design</h2>
+            <p>I'm a passionate UI/UX Designer who create visually appealing and user-friendly interfaces for digital products, focusing on enhancing user experience through intuitive design, usability, and aesthetics. .</p>
+            <a href="#">Learn more</a>
+        </div>
+
+        <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>Web Designer</h2>
+            <p>I am a talented web designer with a creative flair for crafting stunning and user-friendly websites. With a keen eye for aesthetics and a passion for seamless user experiences, they bring digital visions to life on the web.<br>
+             Autem, dolorem!</p>
+            <a href="#">Learn more</a>
+        </div>
+
+     </div>
+    </div>
+   </div>
+   <!--Portfolio-->
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" alt="work-1">
+                <div class="layer">
+                    <h3>Tic-Tac-Toe Game</h3>
+                    <p>This project is a simple implementation of the classic Tic Tac Toe game. The game is played on a 3x3 grid, where two players take turns marking X and O on the grid. The game allows two players to take turns and make their moves on the grid.The game automatically detects when a player has won the game and announces the winner.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i> </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" alt="work-2">
+                <div class="layer">
+                    <h3>Netflix Clone</h3>
+                    <p>Netflix clone is a web application that replicates the features and design of Netflix, allowing users to browse, search, and stream movies and TV shows, providing an immersive streaming experience on-demand.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i> </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/work-3.png" alt="work-3">
+                <div class="layer">
+                    <h3>Music Website</h3>
+                    <p>A music website is a website that allows users to discover, listen to, and download music from various artists and genres.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i> </a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+   </div>
+
+   <!----Contact Form-->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i> mohitcse45@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i> 9664466478</p>
+            <div class="social-icons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/mohit-choudhary-a6ba6429a"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Mohittjaat"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <a href="./images/mohit_resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email"required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Mohit. Made with<i class="fa-solid fa-heart"></i>Easy</p>
+    </div>
+   </div>
+   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+   <script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+   </script>
+
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+        strings: ['Web Developer', 'UI/UX Designer', 'Web Designer'],
+            typeSpeed: 50,
+    });
+</script>
+
+   <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+     tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+    tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab")
+}
+   </script>
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxZ9xtuD6ZKFUlkZ-ul900FtIOPs1ZMA7x0L4YEYcogkeWExkMXNRDEq501ZE_-gpT0gw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>

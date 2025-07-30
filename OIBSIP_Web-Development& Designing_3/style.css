@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #00c9ff, #92fe9d);
+  background-size: cover;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 30px 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #004d40;
+}
+
+.converter-box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.converter-box input,
+.converter-box select,
+.converter-box button {
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.converter-box input:focus,
+.converter-box select:focus {
+  border-color: #00b894;
+  outline: none;
+}
+
+#convertBtn {
+  background-color: #00b894;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#convertBtn:hover {
+  background-color: #00796b;
+}
+
+.result {
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #222;
+  background: #e0f7fa;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #b2ebf2;
+}

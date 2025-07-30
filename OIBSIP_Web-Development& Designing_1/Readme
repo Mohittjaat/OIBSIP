@@ -1,0 +1,33 @@
+# 🔷 Task 1: Interactive Landing Page — Netflix Clone
+
+## 📌 Objective:
+Design and develop a landing page inspired by Netflix , focusing on layout design and semantic structure using HTML and CSS.
+
+## 🛠 Tools & Technologies Used:
+- HTML5
+- CSS3
+- Flexbox Layout
+- Google Fonts
+
+## 🧩 Steps Performed:
+1. Created the basic structure using semantic HTML elements (header, section, footer).
+2. Designed the layout using `flexbox` and `div` containers for proper spacing and alignment.
+3. Added CTA buttons, logo placement, and form elements for visual balance.
+4. Implemented a **mobile-first responsive design** using media queries.
+5. Applied custom styling with CSS for color, typography, and spacing.
+
+## ✅ Outcome:
+- A clean, visually engaging landing page resembling the Netflix interface.
+- Fully Interactive across mobile, tablet, and desktop.
+- Reinforced foundational frontend concepts like layouting, semantic tags, and CSS best practices.
+
+
+## 🎯 Key Concepts Reinforced:
+- Responsive Web Design
+- Semantic HTML5
+- Modern CSS Layout (Flexbox)
+- UI/UX Alignment & Spacing
+
+---
+
+
